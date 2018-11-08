@@ -1,0 +1,134 @@
+.sidenav {
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+br{
+    color: grey;
+}
+
+.image1{
+    width: 170px;
+    border-radius:80%;
+    margin-top: 30px;
+    margin-left: 90px;
+    border: solid 3px white;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+*, *:after, *:before { 
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box; 
+            box-sizing: border-box;
+  }
+  body, html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+  }
+  .clearfix:before, .clearfix:after { content: " "; display: table; }
+  .clearfix:after { clear: both; }
+  body {
+    font-family: 'Open Sans', sans-serif;
+      color: #6b7381;
+      background: #f2f2f2;
+  }
+  a {
+      color: #aaa;
+      text-decoration: none;
+  }
+  a:hover,a:active {color: #333;}
+  h2 {
+    color: #4E88AE;
+    font-weight: 400;
+    text-align: center;
+  }
+  img {
+    border: 0;
+    display: block;
+    width: 100%;
+  }
+
+  .grid {
+      max-width: 40em;
+      list-style: none;
+      margin: 30px auto;
+      padding: 1;
+  }
+  .grid .item {
+      display: block;
+      float: left;
+      padding: 2px;
+      width: 33%;
+      opacity: 1;
+  }
+  .grid .item2 {
+    display: block;
+    float: left;
+    padding: 2px;
+    width: 50%;
+    opacity: 1;
+}
+  .grid .item a,.grid .item img {
+      outline: none;
+      border: none;
+      display: block;
+      max-width: 100%;
+  }
+  .grid.effect-2 .item.animate {
+      -webkit-transform: translateY(200px);
+      transform: translateY(200px);
+      -webkit-animation: moveUp 0.65s ease forwards;
+      animation: moveUp 0.65s ease forwards;
+  }
+  
+  @-webkit-keyframes moveUp {
+      0% { }
+      100% { -webkit-transform: translateY(0); opacity: 1; }
+  }
+  
+  @keyframes moveUp {
+      0% { }
+      100% { -webkit-transform: translateY(0); transform: translateY(0); opacity: 1; }
+  }
+  @media screen and (max-width: 900px) {
+      .grid .item {width: 50%;}
+    .entry {box-shadow: none;}
+    .entry > .grid > .item {width: 50%;}
+  }
+  
+  @media screen and (max-width: 400px) {
+      .grid .item {width: 100%;}
+    .entry {padding: 20px 0;}
+    .entry > p {padding: 10px;}
+    .entry > .grid > .item {width: 100%;}
+  }
+
+  
