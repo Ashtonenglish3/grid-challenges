@@ -24,57 +24,43 @@
 br{
     color: grey;
 }
+h3{
+    color:white;
+    text-align: center;
+    margin-top: 0;
+    font-size: 11px;
+}
 
 .image1{
-    width: 170px;
+    width: 130px;
     border-radius:80%;
     margin-top: 30px;
-    margin-left: 90px;
+    margin-left: 120px;
     border: solid 3px white;
 }
 h1{
     color: white;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 h2{
     color: white;
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
+    margin-top: 0;
 }
-*, *:after, *:before { 
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box; 
-            box-sizing: border-box;
-  }
-  body, html {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    padding: 0;
-    margin: 0;
-  }
-  .clearfix:before, .clearfix:after { content: " "; display: table; }
-  .clearfix:after { clear: both; }
-  body {
-    font-family: 'Open Sans', sans-serif;
-      color: #6b7381;
-      background: #f2f2f2;
-  }
-  a {
-      color: #aaa;
-      text-decoration: none;
-  }
-  a:hover,a:active {color: #333;}
-  h2 {
-    color: #4E88AE;
-    font-weight: 400;
-    text-align: center;
-  }
+
   img {
     border: 0;
     display: block;
     width: 100%;
   }
+  .border{
+    border-top: 1px solid;
+    color: lightgrey;
+    line-height: 1.5;
+  }
+  
 
   .grid {
       max-width: 40em;
@@ -102,33 +88,5 @@ h2{
       display: block;
       max-width: 100%;
   }
-  .grid.effect-2 .item.animate {
-      -webkit-transform: translateY(200px);
-      transform: translateY(200px);
-      -webkit-animation: moveUp 0.65s ease forwards;
-      animation: moveUp 0.65s ease forwards;
-  }
   
-  @-webkit-keyframes moveUp {
-      0% { }
-      100% { -webkit-transform: translateY(0); opacity: 1; }
-  }
-  
-  @keyframes moveUp {
-      0% { }
-      100% { -webkit-transform: translateY(0); transform: translateY(0); opacity: 1; }
-  }
-  @media screen and (max-width: 900px) {
-      .grid .item {width: 50%;}
-    .entry {box-shadow: none;}
-    .entry > .grid > .item {width: 50%;}
-  }
-  
-  @media screen and (max-width: 400px) {
-      .grid .item {width: 100%;}
-    .entry {padding: 20px 0;}
-    .entry > p {padding: 10px;}
-    .entry > .grid > .item {width: 100%;}
-  }
-
   
